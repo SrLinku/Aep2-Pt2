@@ -90,7 +90,7 @@ export function NavUser({
               </DropdownMenuItem>
             </DropdownMenuGroup>
             <DropdownMenuSeparator />
-            <DropdownMenuItem onClick={() => history("/sign-in")}>
+            <DropdownMenuItem onClick={() => history("/auth/sign-in")}>
               <LogOut />
               Log out
             </DropdownMenuItem>
