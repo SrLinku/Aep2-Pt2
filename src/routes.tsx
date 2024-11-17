@@ -14,15 +14,15 @@ export const router = createBrowserRouter([
     children: [
       { path: "/", element: <HomeLayout /> },
       {
-        path: "/cartao",
+        path: "cartao",
         element: <CartaoLayout />,
       },
       {
-        path: "/boleto",
+        path: "boleto",
         element: <BoletoLayout />,
       },
       {
-        path: "/pix",
+        path: "pix",
         element: <PixLayout />,
       },
     ],
